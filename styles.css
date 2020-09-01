@@ -1,0 +1,19 @@
+h1{
+  color: red;
+  font-weight: bold;
+  font-family: Helvetica;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  font-family: Helvetica;
+  text-decoration: underline;
+}
+#table-tags-intro {
+  color: red;
+  text-align: center;
+}
+#table-tags-table {
+  margin: auto;
+  width: 650px;
+}
