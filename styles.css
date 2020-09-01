@@ -1,5 +1,8 @@
+body {
+  background-color: gray;
+}
 h1{
-  color: red;
+  color: Blue;
   font-weight: bold;
   font-family: Helvetica;
   text-align: center;
@@ -10,10 +13,33 @@ h2 {
   text-decoration: underline;
 }
 #table-tags-intro {
-  color: red;
+  color: Blue;
   text-align: center;
 }
-#table-tags-table {
+table {
   margin: auto;
   width: 650px;
+  display: grid;
+  border: 5px;
+  border-style: groove;
+  border-radius: 5px;
+  border-collapse: separate;
+  border-color: Blue;
+}
+thead {
+  color: Blue;
+  text-align: center;
+  font-family: Helvetica;
+}
+.column_1 {
+  width: 100px;
+}
+.column_2 {
+  width: 100px;
+}
+.column_3 {
+  width: 450px;
+}
+td {
+  text-align: center;
 }
